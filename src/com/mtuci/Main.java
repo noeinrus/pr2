@@ -16,7 +16,7 @@ public class Main {
             System.out.println("Point " + i + ": (" + myPoint[i].getX() + " " + myPoint[i].getY() + " " + myPoint[i].getZ() + ")");
         }
         if (checkPoints(myPoint[0], myPoint[1], myPoint[2])) //Проверочка на совпадение (равность) точек
-            System.out.printf("Area of a triangle: " + "%.2f", computeArea(myPoint[0], myPoint[1], myPoint[2]));
+            System.out.println("Area of a triangle: " + computeArea(myPoint[0], myPoint[1], myPoint[2]));
         else
             System.out.println("Some of points are equal. Please, enter correct input data");
     }
